@@ -15,7 +15,7 @@
   <input type="button" value="Version" id="btn_version"/>
 
   <script>
-      VERSION = '0.1j';
+      VERSION = '0.2j';
 
       window.onload = function(e) {
           var btn = document.getElementById("btn_version");
