@@ -11,6 +11,21 @@
     <title></title>
   </head>
   <body>
-  <h1>Version 0.1</h1>
+  <div id="display"></div>
+  <input type="button" value="Version" id="btn_version"/>
+
+  <script>
+      VERSION = '0.1j';
+
+      window.onload = function(e) {
+          var btn = document.getElementById("btn_version");
+
+          btn.addEventListener('click', function(e) {
+              var display = document.getElementById("display");
+
+              display.innerHTML = "<h2>" + VERSION + "</h1>";
+          }, true);
+      }
+  </script>
   </body>
 </html>
