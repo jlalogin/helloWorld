@@ -5,22 +5,17 @@
 	<title></title>
 </head>
 <body>
-<div id="display"></div>
-<input type="button" value="Version" id="btn_version"/>
 
-<script>
-	VERSION = '0.2w';
+<header>
+	<h1>Demos</h1>
+</header>
 
-	window.onload = function(e) {
-		var btn = document.getElementById("btn_version");
+<ul>
+	<li>
+		<a href="demos/require.html">require(...)</a>
+	</li>
+</ul>
 
-		btn.addEventListener('click', function(e) {
-			var display = document.getElementById("display");
-
-			display.innerHTML = "<h2>" + VERSION + "</h1>";
-		}, true);
-	}
-</script>
 
 </body>
 </html>
