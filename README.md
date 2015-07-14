@@ -1,3 +1,3 @@
 # helloWorld
 
-this is a sample repo to start mastering git
+this is a hello world repo to start mastering git
